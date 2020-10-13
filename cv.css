@@ -2,6 +2,12 @@
 	background-color: #850606;
 	color: #ffffff;
 }
+.font_bleu{
+	background-color: #2874a6;
+}
+.font_orange{
+	background-color: 
+}
 .font_gris{
 	background-color: #D3D3D3;
 }
@@ -49,7 +55,6 @@ td {
     border: 0.5px solid #FF0000;
     
 }
-
 thead{text-align: center;
 background-color: #8B0000;
 color:#ffffff;}
@@ -63,3 +68,40 @@ tfoot {
  h2{
  	font-size: 15px
  }
+
+ div{
+ 	float: left;
+ 	margin-right:20px;
+ }
+ .theme_coleur{
+ 	
+ 	display: inline-block;
+ }
+
+
+ #theme_bleu{
+ width: 20px;
+	height: 20px;
+ 	border:0.2px solid #FFFFFF;
+ 	background-color:#2874a6;
+ 	display: inline-block; 	
+ 	margin-right:5px;	
+ }
+ #theme_orange{
+ 	width: 20px;
+	height: 20px;
+ 	border:0.2px solid #FFFFFF;
+ 	background-color:#cc5500;
+ 	display: inline-block;
+  	margin-right:5px;
+ }
+
+ #theme_blood{
+ 	width: 20px;
+	height: 20px;
+ 	border:0.2px solid #FFFFFF;
+ 	background-color:#850606;
+ 	display: inline-block;
+ 	margin-right:5px;
+ }
+ 
