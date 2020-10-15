@@ -64,3 +64,31 @@ document.getElementById('theme_bleu').addEventListener("click",change_theme);
 
 
 
+function changer_section ()
+{  console.debug(this.id)
+    if(this.id=="nav_mon_cv")
+    {
+        document.getElementById("mon_cv").style.display = "block";
+        document.getElementById("inscription").style.display = "none";
+        document.getElementById("connexion").style.display = "none";
+    }
+    
+    else if(this.id=="nav_inscription")
+    {
+        document.getElementById("mon_cv").style.display = "none";
+        document.getElementById("inscription").style.display = "block";
+        document.getElementById("connexion").style.display = "none";
+    }
+    else if(this.id=="nav_connexion")
+    {
+        document.getElementById("mon_cv").style.display = "none";
+        document.getElementById("inscription").style.display = "none";
+        document.getElementById("connexion").style.display = "block";
+    }
+}
+
+document.getElementById('nav_mon_cv').addEventListener('click',changer_section);
+
+document.getElementById('nav_inscription').addEventListener("click",changer_section);
+
+document.getElementById('nav_connexion').addEventListener("click",changer_section);

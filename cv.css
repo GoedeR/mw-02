@@ -40,6 +40,7 @@ nav {
 	font-size: 18px;
 	background-color: #ffffff
 	color:#580606
+
 }
 section {
 	padding-top: 30px;
@@ -49,6 +50,8 @@ section {
 }
 h1{
 	font-size: 19px;
+
+
 }
 table 
 td {
@@ -104,4 +107,19 @@ tfoot {
  	display: inline-block;
  	margin-right:5px;
  }
- 
+ .barre_nav_li{
+ 	display: inline-block;
+ 	font-size: 1rem;
+ 	padding-right:30px;
+ 	cursor: pointer;
+ 	text-decoration: underline;
+ }
+ #mon_cv{
+ 	display: none;
+ }
+ #inscription{
+ 	display: none;
+ }
+#connexion{
+	display: none;
+}
