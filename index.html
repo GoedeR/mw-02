@@ -20,20 +20,21 @@
 	</ul>
 </nav>
 
-
-<section>
-	<div id="mon_cv">Mon CV
-<p>Rémi GOËDE</p>
-<p>12 chemin de l'aubepine<br>93160 Noisy Le Grand <br>
-0781939797<br>
-<u>remi.goede@gmail.com</u> </p>
-<br>
-<aside><img src="photo rémi.jpeg" width="75" height="75">
+<aside >
 	<br>
 	<a href="https://www.w3schools.com">w3schools</a>
 <br>
 	<a href="https://openclassrooms.com">OpenClassrooms</a> 
 </aside>
+<section>
+	<div id="mon_cv">Mon CV
+		<img id="photoID"src="photo rémi.jpeg" width="75" height="75">
+<p>Rémi GOËDE</p>
+<p>12 chemin de l'aubepine<br>93160 Noisy Le Grand <br>
+0781939797<br>
+<u>remi.goede@gmail.com</u> </p>
+<br>
+
 <table class="font_gris" cellspacing="0">
 <thead>
 			        <tr>
@@ -221,24 +222,47 @@
 
 <div id="inscription">
 	<h1>formulaire d'inscription</h1>
-<table>
-	<tbody>
-	 	<tr>
-			<td>adresse mail</td>        	
-			<td>"     "</td>	        	
-        </tr>
-        <br>
-        <tr>
-			<td>mdp</td>
-			<td>"     "</td>	       	
-		</tr>
-	</tbody>
-</table>
+
+<form action="compte.PHP" method="post">
+
+		<label for="Nom">Nom</label>
+			<br><input type="text" name="Nom_utilisateur">
+<br>
+	
+		<label for="Prénom">Prénom</label>
+			<br><input type="text" name="Prenom_utilisateur">
+<br>
+		<label for="adresse mail">adresse mail</label>
+			<br><input type="email" name="mail_utilisateur">
+<br>
+		<label for="date de naissance">date de naissance</label>
+			<br><input type="time" name="date_de_naissance_utilisateur">
+<br>	
+
+		<label for="Pseudo">Pseudo</label>
+			<br><input type="text" name="Pseudo_utilisateur">
+<br>
+		<label for="mot de passe">mot de passe</label>
+			<br><input type="password" name="mot de passe :">
+<br>
+		<label for="ressaisir mot de passe">ressaisir mot de passe</label>
+			<br><input type="password" name="ressaisir mot de passe :">
+<br>
+			<br><input type="submit" name="envoyer" value="valider">
+</form>
 </div>
 <br>
 
 <div id="connexion">
 	<h1>formulaire de connexion</h1>
+	<form action="compte.PHP" method="post">
+		<label for="Pseudo">Pseudo</label>
+		<input id="conexion" type="text" name="Pseudo_utilisateur">
+
+		<label for="mot de passe">mot de passe</label>
+		<input type="password" name="mot de passe :">
+		<input type="submit" name="envoyer" value="valider">
+	</form>
 </div>
 </section>
 
