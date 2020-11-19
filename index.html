@@ -236,7 +236,7 @@
 			<br><input type="email" name="mail_utilisateur">
 <br>
 		<label for="date de naissance">date de naissance</label>
-			<br><input type="time" name="date_de_naissance_utilisateur">
+			<br><input type="date" name="date_de_naissance_utilisateur">
 <br>	
 
 		<label for="Pseudo">Pseudo</label>
@@ -248,21 +248,26 @@
 		<label for="ressaisir mot de passe">ressaisir mot de passe</label>
 			<br><input type="password" name="ressaisir mot de passe :">
 <br>
-			<br><input type="submit" name="envoyer" value="valider">
+			<br><input type="submit" name="envoyer" value="M'incrire">
 </form>
 </div>
 <br>
 
 <div id="connexion">
 	<h1>formulaire de connexion</h1>
-	<form action="compte.PHP" method="post">
-		<label for="Pseudo">Pseudo</label>
-		<input id="conexion" type="text" name="Pseudo_utilisateur">
-
-		<label for="mot de passe">mot de passe</label>
-		<input type="password" name="mot de passe :">
-		<input type="submit" name="envoyer" value="valider">
-	</form>
+	<form action="compte.PHP" method="post" class="formulaire">
+	<label for="Pseudo">Pseudo</label>
+<br>
+	<input id="conexion" type="text" name="Pseudo_utilisateur" class="formulaire">
+<br>
+	<label for="mot de passe">mot de passe</label>
+<br>
+	<input type="password" name="mot de passe :" class="formulaire">
+<br>
+<br>
+	<input type="submit" name="envoyer" value="connexion" class="formulaire">
+<br>
+</form>
 </div>
 </section>
 

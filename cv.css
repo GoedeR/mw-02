@@ -124,7 +124,16 @@ float: left;
  }
  #inscription{
  	display: none;
+
  }
 #connexion{
 	display: none;
+}
+input{
+	width: 25%;
+    padding: 10px 10px;
+    border: 3px solid #850606;
+    border-radius: 15px;
+    box-sizing: border-box;
+    font-size: 16px;
 }
